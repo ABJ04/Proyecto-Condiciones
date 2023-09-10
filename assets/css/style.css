@@ -1,0 +1,104 @@
+/* primer desafió */
+.des1 {
+  display: flex;
+  justify-content: center;
+}
+
+.des1 img {
+  width: 250px;
+}
+
+/* segundo desafió */
+
+.des2 {
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "stick1 stick2 stick3" "botver botver botver" "p p p";
+  grid-template-columns: 15% 15% 15%;
+  justify-content: center;
+}
+
+.des2 img {
+  width: 250px;
+}
+
+.titulo {
+  grid-area: titulo;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.stick1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: stick1;
+}
+
+.stick2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: stick2;
+}
+
+.stick3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: stick3;
+}
+
+.barrtext {
+  margin: 10px;
+}
+
+p {
+  grid-area: p;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.botver {
+  grid-area: botver;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+/* tercer desafió */
+
+.des3 {
+  display: grid;
+  grid-template-areas:
+    "h1 h1 h1"
+    "selecciones selecciones selecciones"
+    "botdes3 botdes3 botdes3"
+    "resultado resultado resultado";
+  grid-template-rows: 43% auto 20%;
+  justify-content: center;
+}
+
+h1 {
+  grid-area: h1;
+}
+
+.selecciones {
+  grid-area: selecciones;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.botdes3 {
+  grid-area: botdes3;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.resultado {
+  grid-area: resultado;
+}
